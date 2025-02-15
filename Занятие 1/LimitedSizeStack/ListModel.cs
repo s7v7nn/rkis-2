@@ -72,6 +72,7 @@ namespace LimitedSizeStack
                 case TypeAction.RemoveItem:
                     Items.Insert(lastAction.Item3, lastAction.Item2);
                     break;
+
             }
         }
     }
